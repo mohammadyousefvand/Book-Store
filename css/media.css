@@ -1,0 +1,185 @@
+@media screen and (max-width:1024px) {
+    .section-1-box-image img {
+        width: 350px;
+    }
+    .offer-cover img{
+        width: 300px;
+    }
+
+    .section-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-box {
+        margin: 20px auto;
+    }
+
+    .slide-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mini-slide-box {
+        margin: 0 60px;
+        padding: 20px 35px;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .search {
+        display: none;
+    }
+
+    .icon-header .search-two {
+        display: block;
+    }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-1-title,
+    .section-1-cover {
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .slide-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mini-slide-box {
+        margin: 0 60px;
+        padding: 20px 75px;
+    }
+
+    .fetured-title h2::before,
+    .comment-title h2::before,
+    .blog-title h2::before{
+        width: 200px;
+    }
+
+    .news {
+        background-position: right;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .news-form {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-form h4 {
+        font-size: 18px;
+    }
+
+    .news-form input {
+        width: 260px;
+    }
+
+    .news-form {
+        margin: 0;
+    }
+
+    .section-comment-container ,  .section-blog-container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .container-column-footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .column-footer{
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .header-down {
+        display: none;
+    }
+
+    .menu-down {
+        bottom: 0;
+    }
+
+    .icon-header span{
+        margin-left: 10px;
+        padding: 6px;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .login-form {
+        width: 300px;
+    }
+
+    .login h2 {
+        font-size: 20px;
+    }
+
+    .close-login span {
+        font-size: 26px;
+    }
+
+    .section-1-box-image img {
+        width: 300px;
+    }
+    .offer-cover img{
+        width: 250px;
+    }
+
+    .section-1-title {
+        padding: 15px 5px;
+        align-items: center;
+    }
+
+    .section-1-title h1 {
+        font-size: 30px;
+    }
+
+    .btn-shope {
+        width: 140px;
+    }
+    .new-btn{
+        width: 160px;
+    }
+
+    .section-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-box {
+        margin: 20px auto;
+    }
+
+    .mini-slide-box {
+        margin: 0;
+        padding: 20px 55px;
+    }
+    .news-form h4 {
+        font-size: 15px;
+    }
+    .container-column-footer{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    .column-footer{
+        text-align: center;
+        margin: 25px 0;
+    }
+    .last-footer{
+        padding: 0 0 80px;
+    }
+}
