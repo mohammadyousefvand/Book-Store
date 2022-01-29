@@ -113,6 +113,10 @@
         display: none;
     }
 
+    .custom-Scroll{
+        background-color:#01B636;
+    }
+
     .menu-down {
         bottom: 0;
     }
